@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemEmEspera"
+        android:title="@string/em_espera" />
+    <item
+        android:id="@+id/menuItemEmDeslocamento"
+        android:title="@string/em_deslocamento" />
+    <item
+        android:id="@+id/menuItemEmExecucao"
+        android:title="@string/em_execucao" />
+    <item
+        android:id="@+id/menuItemDesignarTecnico"
+        android:title="@string/designar_tecnico" />
+    <item
+        android:id="@+id/menuItemFinalizado"
+        android:title="@string/finalizado" />
+    <item
+        android:id="@+id/menuItemCancelado"
+        android:title="@string/cancelado" />
+</menu>

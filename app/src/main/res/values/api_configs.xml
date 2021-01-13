@@ -1,0 +1,4 @@
+<resources>
+    <!--URL BASE DAS REQUISIÇOES NA API MOBILE -->
+    <string name="BASE_URL" translatable="false">http://developintech.com/gestaochamados/android_api</string>
+</resources>

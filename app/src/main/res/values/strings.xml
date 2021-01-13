@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Gestao de Chamados</string>
+    <string name="descricao_img_startup">Imagem splashscreen</string>
+    <string name="preencha_a_password">Preencha a Password</string>
+    <string name="preencha_o_email">Preencha o email</string>
+    <string name="cadastrar_se">Cadastrar-se</string>
+    <string name="login">Login</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="upload">Upload</string>
+    <string name="title_activity_chamado">Map</string>
+    <string name="instala_o_de_roteador_wifi">Instalação de Roteador Wifi</string>
+    <string name="jd_cristo_rei_ii">Jd. Cristo Rei II</string>
+    <string name="corn_lio_proc_pio">Cornélio Procópio</string>
+    <string name="em_andamento">Em andamento</string>
+    <string name="_12_04">12/04</string>
+    <string name="_16_00">16:00</string>
+    <string name="_3km">3Km</string>
+    <string name="usuarios">Usuários</string>
+    <string name="sair">Sair</string>
+    <string name="sobre">Sobre</string>
+    <string name="voltar">Voltar</string>
+    <string name="por_nome">Por nome</string>
+    <string name="por_cargo">Por cargo</string>
+    <string name="status">Status</string>
+    <string name="finalizado">Finalizado</string>
+    <string name="cancelado">Cancelado</string>
+    <string name="designar_tecnico">Designar Técnico</string>
+    <string name="em_execucao">Em Execução</string>
+    <string name="em_deslocamento">Em Deslocamento</string>
+    <string name="em_espera">Em Espera</string>
+</resources>

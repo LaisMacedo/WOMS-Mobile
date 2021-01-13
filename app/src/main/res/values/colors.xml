@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dark_blue_project">#005c94</color>
+    <color name="white">#ffffff</color>
+    <color name="light_blue_project">#05a0ff</color>
+    <color name="very_light_blue_project">#dce8ed</color>
+    <color name="gray_400_project">#bdbdbd</color>
+    <color name="gray_600_project">#757575</color>
+    <color name="gray_200_project">#eeeeee</color>
+    <color name="danger">#bc1818</color>    <!--UNUSED-->
+    <color name="warning">#fca400</color>   <!--UNUSED-->
+    <color name="sucess">#4faf41</color>    <!--UNUSED-->
+</resources>

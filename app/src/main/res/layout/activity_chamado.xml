@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    tools:context=".View.ChamadoActivity" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/dark_blue_project"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_menu_call"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:background="@color/dark_blue_project"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_menu_directions"
+                app:layout_constraintStart_toEndOf="@+id/imageButton" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:background="@color/dark_blue_project"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_menu_camera"
+                app:layout_constraintStart_toEndOf="@+id/imageButton2" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:background="@color/dark_blue_project"
+                android:padding="10dp"
+                android:src="@android:drawable/ic_menu_set_as"
+                app:layout_constraintStart_toEndOf="@+id/imageButton3" />
+
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/status"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <TextView
+        android:id="@+id/textViewChamStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Em Andamento"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textViewStatus"
+        app:layout_constraintTop_toTopOf="@+id/textViewStatus" />
+
+    <TextView
+        android:id="@+id/textCliente"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Cliente"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStatus" />
+
+    <TextView
+        android:id="@+id/textViewCliNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="2dp"
+        android:text="Nome do Fulado Da Silva"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textCliente"
+        app:layout_constraintTop_toTopOf="@+id/textCliente" />
+
+    <TextView
+        android:id="@+id/textViewEndereco"
+        android:layout_width="255dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="Rua Adalberto Fulano 123, centro. Cornélio Procópio - Paraná"
+        app:layout_constraintStart_toEndOf="@+id/textEndereco"
+        app:layout_constraintTop_toTopOf="@+id/textEndereco" />
+
+    <TextView
+        android:id="@+id/textEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Endereço"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCliente" />
+
+    <TextView
+        android:id="@+id/textServico"
+        android:layout_width="61dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Serviço"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEndereco" />
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="Formatação de Computador"
+        app:layout_constraintStart_toEndOf="@+id/textServico"
+        app:layout_constraintTop_toTopOf="@+id/textServico" />
+
+    <TextView
+        android:id="@+id/textDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Descrição"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textServico" />
+
+    <TextView
+        android:id="@+id/textViewDescricao"
+        android:layout_width="252dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Cliente solicitou a instalação de antivírus na máquina"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textDescricao"
+        app:layout_constraintTop_toTopOf="@+id/textDescricao" />
+
+</android.support.constraint.ConstraintLayout>

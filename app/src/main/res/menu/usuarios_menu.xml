@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/menuItemVoltar"
+            android:icon="@android:drawable/ic_menu_revert"
+            android:title="@string/voltar"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/menuItemPorCargo"
+            android:title="@string/por_cargo"
+            android:visible="false" />
+        <item
+            android:id="@+id/menuItemPorNome"
+            android:title="@string/por_nome" />
+        <item
+            android:id="@+id/menuItemSobre"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/sobre" />
+        <item
+            android:id="@+id/menuItemSair"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="@string/sair" />
+    </group>
+</menu>
